@@ -13,9 +13,9 @@ public class bj_2884 {
         int a = sc.nextInt();
         int b = sc.nextInt();
 
-        if (b < 45) {
-            a--;
-            b = 60 - (45 -b);
+        if (b < 45) {       // 분이 45분 미만일때
+            a--;            // 시를 1줄이고
+            b = 60 - (45 -b);   //분 = 60 - (45- b)
             if (a < 0) {
                 a = 23;
             }
