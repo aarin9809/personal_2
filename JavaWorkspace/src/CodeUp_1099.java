@@ -29,7 +29,7 @@ public class CodeUp_1099 {
 
         int[][] arr = new int[10][10];
 
-        //배열 입력 및 초기ㅗ하
+        //배열 입력 및 초기화
         for (int i=0; i<10; i++) {
             for (int j=0; j<10; j++){
                 arr[i][j] = sc.nextInt();
